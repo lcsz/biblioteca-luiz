@@ -1,0 +1,15 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Projeto Biblioteca do Luiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "biblioteca",
+    "livros"
+  ],
+  "author": "Luiz C Souza Jr",
+  "license": "ISC"
+}
