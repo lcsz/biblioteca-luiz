@@ -4,10 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Biblioteca do Luiz</title>
+    <script src="js/home.js"></script>
   </head>
   <body>
 
     <h1>Bem vindo à Biblioteca do Luiz</h1>
+
+    <script>
+      (() => {
+        var hp = new HomePlugin();
+        hp.buscarLivros();
+        console.log(hp.livros);
+
+      })();
+    </script>
 
   </body>
 </html>
