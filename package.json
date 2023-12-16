@@ -11,5 +11,8 @@
     "livros"
   ],
   "author": "Luiz C Souza Jr",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

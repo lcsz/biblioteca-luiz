@@ -2,8 +2,19 @@
 <html>
     <head>
         <title>Usuários da Biblioteca</title>
+        <script src="js/usuario.js"></script>
     </head>
     <body>
-        <h1>Usuários</h1>
+        <h1>Usuários da Biblioteca</h1>
+
+
+
+        <script>
+            (async function() {                    
+                var usuario = new Usuario();
+                var resp = await usuario.buscaTodos();
+            })();
+        </script>
+
     </body>
 </html>
